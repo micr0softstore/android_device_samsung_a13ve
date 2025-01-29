@@ -11,10 +11,6 @@ ro.board.platform=mt6768
 # Boot devices
 ro.boot.boot_devices=bootdevice,soc/11230000.mmc,11230000.mmc
 
-# USB and MTP stuff
-persist.sys.usb.config=mtp
-sys.usb.controller=musb-hdrc
-
 # Crypto
 ro.security.keystore.keytype=sakv2,gak
 ro.hardware.keystore=mdfpp
